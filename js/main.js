@@ -29,11 +29,12 @@ function linkAction(){
 navLink.forEach(n => n.addEventListener('click', linkAction))
 
 const sr = ScrollReveal({
-    origin: 'top',
+    origin: 'left',
     distance: '80px',
-    duration: 2000,
+    duration: 2500,
     reset: true
 })
+
 
 /* scroll inicio */
 sr.reveal('.inicio__titulo',{})
@@ -50,7 +51,7 @@ sr.reveal('.about__text',{delay: 250})
 
 sr.reveal('.skills__subtitulo',{})
 sr.reveal('.skills__text',{delay: 100})
-sr.reveal('.skills__data',{interval: 300})
+sr.reveal('.skills__data',{interval: 400})
 sr.reveal('.skills__img',{delay: 300})
 
 
