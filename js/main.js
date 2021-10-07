@@ -58,3 +58,22 @@ sr.reveal('.skills__img',{delay: 300})
 sr.reveal('.trabajo__img',{interval: 350})
 
 sr.reveal('.contact__input',{interval: 200})
+
+
+window.onscroll = function(){
+    if (document.documentElement.scrollTop > 350){
+        document.querySelector('.go-top-container')
+        .classList.add('show')
+    }
+    else{
+        document.querySelector('.go-top-container')
+        .classList.remove('show')
+    }
+}
+document.querySelector('.go-top-container')
+.addEventListener('click',() =>{
+    window.scrollTo({
+        top: 0,
+        behavior:'smooth'
+     });
+});  
