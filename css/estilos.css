@@ -376,6 +376,24 @@ margin-top: 5%;
 .trabajo__img img:hover{
     transform: scale(1.1);
 } 
+.div-card{
+    padding: 2rem;
+}
+.div-card p{
+    text-align: center;
+    letter-spacing: .1rem;
+    margin-bottom: 25px;
+}
+.link-icon{
+    margin: 15px;
+    height: 10px;
+    color: var(--second-color);
+    font-size: 25px;
+    cursor: pointer;
+}
+.link-icon::before{
+    color: var(--first-color);
+}
 
 /* formulario de contacto */
 
