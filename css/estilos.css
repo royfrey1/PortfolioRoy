@@ -176,7 +176,7 @@ box-shadow: 0 1px 4px rgba(146, 161, 176,.15);
 
 .nav__logo{
     color: var(--second-color);
-    font-size: xx-large;
+    font-size: x-large;
 }   
 
 .nav__toggle{
@@ -242,7 +242,7 @@ margin-top: 5%;
     width: max-content;
     margin-bottom: var(--mb-2);
     font-size: 1.5rem;
-    color: var(--second-color)
+    color: var(--second-color);
 }
 
 .inicio__social-icon::hover{
@@ -336,22 +336,25 @@ margin-top: 5%;
     z-index: var(--z-back);
 }
 .skills__html{
-    width: 70%;
+    width: 87%;
 }
 
 .skills__css{
-    width: 48%;
+    width: 69%;
 }
 
 .skills__js{
-    width: 34%;
+    width: 40%;
 }
 .skills__ux{
-    width: 54%;
+    width: 69%;
 }
 
 .skills__sql{
     width: 59%;
+}
+.skills__git{
+    width: 28%;
 }
 .skills__img{
     border-radius: .5rem;
@@ -495,9 +498,10 @@ margin-top: 5%;
         align-self: flex-end;
     }
     .inicio__social-icon{
-        margin: 10%;
+        margin: 2%;
         margin-bottom: 0;
         margin-right: var(--mb-4);
+        margin-left: var(--mb-2);
     }
     .inicio__img{
         width: 400px;
@@ -563,7 +567,7 @@ margin-top: 5%;
     .inicio__titulo{
         margin-left: 30%;
         text-align: center;
-        font-size: var(--normal-font-size);
+        font-size: var(--big-font-size);
     }
 
 }
@@ -579,7 +583,7 @@ margin-top: 5%;
     }
 
     .inicio__social{
-        margin-top:-100px ;
+        margin-top:-90px ;
         flex-direction:column;
         align-self: flex-start;
         margin-left: 20px;
@@ -626,12 +630,19 @@ margin-top: 5%;
     .inicio__img{
         width: 500;
     }   
+    .inicio__titulo{
+        font-size: var(--big-font-size);
+    }
 }
+
 
 @media  screen and (min-width: 1024px){
     .bd-grid{
         margin-left: auto;
         margin-right: auto;
+    }
+    .inicio__titulo{
+        font-size: var(--big-font-size);
     }
     .inicio__img{
         right: 90%;
@@ -642,8 +653,15 @@ margin-top: 5%;
     .inicio__data a{
         margin-left: 50%;
     }
+    .inicio__data .inicio__social-icon{
+        margin:0;
+    }
     .inicio__titulo{
         font-size: var(--big-font-size);
+    }
+    .inicio__img img{
+        position: relative;
+        right: 20px;
     }
 }
 
