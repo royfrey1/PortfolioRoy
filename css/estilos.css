@@ -493,7 +493,6 @@ margin-top: 5%;
     .inicio__social{
         margin-left: 40%;
         padding-top: 0;
-        padding-bottom: 2.5rem;
         flex-direction:row;
         align-self: flex-end;
     }
@@ -583,7 +582,6 @@ margin-top: 5%;
     }
 
     .inicio__social{
-        margin-top:-90px ;
         flex-direction:column;
         align-self: flex-start;
         margin-left: 20px;
@@ -607,7 +605,7 @@ margin-top: 5%;
         width: 400px;
     }
     .inicio__social{
-        margin-left: 70%;
+        margin-left: 67%;
         padding-top: 0;
         margin-right: 5em;
         display: flex;
