@@ -280,7 +280,9 @@ margin-top: 5%;
 .about__subtitulo{
     margin-bottom: var(--mb-2);
 }
-
+.about__text{
+    font-size:x-large;
+}
 .about__img{
     justify-self: center;
 }
@@ -401,6 +403,7 @@ margin-top: 5%;
 /* formulario de contacto */
 
 .contact__input{
+    font-family: var(--body-font);
     width: 100%;
     font-size: var(--normal-font-size);
     font-weight: var(--font-semi);

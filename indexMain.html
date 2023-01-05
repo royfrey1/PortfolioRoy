@@ -66,7 +66,7 @@
 
             <div>
                 <h2 class="about__subtitulo">Soy Roy</h2>
-                <p class="about__text">Soy tecnico superior en analista de sistemas y programacion, diseñador y desarrollador front-end y consultor de sistemas informaticos, actualmente estoy como freelancer desarrollando proyectos personales.</p>
+                <p class="about__text">Soy tecnico superior en analista de sistemas y programacion, diseñador y desarrollador front-end y consultor de sistemas informaticos, actualmente estoy como freelancer desarrollando proyectos personales!.</p>
             </div>
 
         </div>
@@ -223,12 +223,12 @@
         <h2 class="section-title">Contacto</h2>
 
         <div class="contacto__container bd-grid">
-            <form action="" class="contacto__form">
-                <input type="text" placeholder="Nombre" class="contact__input">
-                <input type="mail" placeholder="Email" class="contact__input">
-                <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+            <form id="form" action="" class="contacto__form">
+                <input name="nombre" id="nombre" type="text" required placeholder="Nombre" class="contact__input">
+                <input name="email" type="mail" required placeholder="Email" class="contact__input">
+                <textarea name="mensaje" id="mensaje" cols="0" rows="10" class="contact__input" placeholder="Mensaje.."></textarea>
 
-                <input type="button" value="Enviar" class="contact__button button">
+                <input name="button" id="button" type="button"  value="Enviar" class="contact__button button">
             </form>
             
         </div>
